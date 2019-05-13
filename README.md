@@ -1,14 +1,20 @@
-# GerenciadorDeTarefas
+# Gerenciador De Tarefas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
-## Development server
+## Cliente
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para inicializar o projeto é considerado rodar os seguintes comandos: 
+`npm install` para atualizar todas as dependencias do projeto.
+`ng serve` para inicializar o client. 
 
-## Code scaffolding
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Servidor
+Para rodar o servidor acesso baixe o projeto https://github.com/jardelkuhnen/GerenciadorTarefasServ
+
+Para inicilizar o servidor abrir o projeto na IDE Spring Toll Suite ou rodar o comando:
+`mvn spring-boot:run`
 
 ## Build
 
