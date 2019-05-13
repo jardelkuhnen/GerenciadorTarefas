@@ -7,6 +7,7 @@ import { TarefaService } from './shared/tarefa.service';
 import { ListarTarefaComponent } from './listar/listar-tarefa.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EditarTarefaComponent } from './editar/editar-tarefa.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EditarTarefaComponent } from './editar/editar-tarefa.component';
   imports: [
     CommonModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     TarefaService

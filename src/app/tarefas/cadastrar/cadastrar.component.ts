@@ -27,6 +27,7 @@ export class CadastrarComponent implements OnInit {
   cadastrar(): void {
     if(this.formTarefa.form.valid){
         this.tarefaService.cadastrar(this.tarefa);
+        
         this.router.navigate(["/tarefas"]);
     }
   }
